@@ -16,3 +16,12 @@ variableNumber = 0
 variableNumber = 1_000_000
 
 print(variableNumber)   // 1000000
+
+// Using meaninfgul names
+var personAge: Int = 25
+var numberOfPeople: Int = 168
+var gradePointAverage: Float = 3.98
+
+print(personAge)            // 25
+print(numberOfPeople)       // 168
+print(gradePointAverage)    // 3.98
