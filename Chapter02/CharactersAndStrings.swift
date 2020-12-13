@@ -8,8 +8,13 @@ print(characterA)   // A
 print(characterDog) // 🐶
 print(stringDog)    // Dog
 
-let inferredChar = "B"      // A characetr is a string of length one
+let inferredCharacter = "B"      // A characetr is a string of length one
 let inferredString = "Cat"
 
-print(type(of: inferredChar))   // String
-print(type(of: inferredString)) // String
+print(type(of: inferredCharacter))  // String
+print(type(of: inferredString))     // String
+
+let explicitCharacter: Character = "X"
+let explicitString: String = "Xcode"
+print(type(of: explicitCharacter))  // Character
+print(type(of: explicitString))     // String
