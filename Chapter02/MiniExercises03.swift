@@ -11,4 +11,4 @@ print(averageTemperature)   // 29.6
 
 dateAverageTemperature.averageTemperature = 30.4
 print(dateAverageTemperature)   
-// (month: 12, day: 13, year: 2020, averageTemperature: 29.6)
+// (month: 12, day: 13, year: 2020, averageTemperature: 30.4)
